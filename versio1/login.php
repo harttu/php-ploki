@@ -1,7 +1,7 @@
 <html>
 <body>
 <h3>Tervetuloa matalaan majaan</h3>
-<form action="welcome_get.php" method="get">
+<form action="index.php" method="post">
 Käyttäjätunnus: 
 <input type="text" name="ktunnus"><br>
 Salasana: 
