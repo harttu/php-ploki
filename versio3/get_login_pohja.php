@@ -1,3 +1,6 @@
+<!-- ESIM haku:
+http://localhost/php-login/get_login_pohja.php?ktunnus=matti&ssana=ttaa -->
+
 <h2>Users from database with GET</h2>
  <?php
  
