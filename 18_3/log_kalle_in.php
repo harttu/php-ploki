@@ -28,7 +28,7 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 //	  print_r($row);
    echo "id: " . $row["id"]. " - Name: " . $row["kayttajatunnus"]. "<br>";
-	$_SESSION["kayttajatunnus"] = $kayttajatunnus;
+	$_SESSION["kayttajatunnus"] = $POST_KAYTTAJATUNNUS;
 	echo "Session started<br>";
 // Jos kayttajatunnus löytyy, aloita sessio: 
 // https://www.w3schools.com/php/php_sessions.asp 
