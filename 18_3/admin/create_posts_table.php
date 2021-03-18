@@ -3,12 +3,7 @@
 <?php include '../php_connect_to_mysql.php';?>
 
 <?php
-$sql = "CREATE TABLE posts (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-kayttajatunnus VARCHAR(30) NOT NULL,
-postaus VARCHAR(1000) NOT NULL,
-luontiaika TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-)";
+$sql = "";
 
 echo "SQL-komento on :<br>";
 echo $sql;
