@@ -1,6 +1,6 @@
 ## Osa A - tietokannan muokkaus
 
-1. lisää users tauluun sarake: rooli, jonka tietotyyppi on VARCHAR. Laita oletularvoksi 'plokkaaja' ja aseta satake niin, ettei NULL arvoa hyväksytä. Testaa SQL-lausekkeella HeidiSQL:ssa että taulu on oikeanlainen.
+1. lisää users tauluun sarake: rooli, jonka tietotyyppi on VARCHAR. Laita oletusarvoksi 'plokkaaja' ja aseta sarake niin, ettei NULL arvoa hyväksytä. Testaa SQL-lausekkeella HeidiSQL:ssa että taulu on oikeanlainen.
 
 2. Päivitä create_database.php-tiedostoa, jotta se toimii yllä olevalla 
 
