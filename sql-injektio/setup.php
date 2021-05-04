@@ -2,7 +2,7 @@
 
 <h3>Setup: Create database and add users</h3>
 
-<?php include '../php_connect_to_mysql.php';?>
+<?php include 'php_connect_to_mysql.php';?>
 
 <?php
 $sql = "CREATE TABLE users (
